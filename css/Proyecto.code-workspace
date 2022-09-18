@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Clase 4 d Menu"
+		},
+		{
+			"path": "../../Clase 4 b EjemploInline"
+		},
+		{
+			"path": "../../AFTER"
+		},
+		{
+			"path": "../../AFTER_terminado"
+		},
+		{
+			"path": "../../Clase 4 c Positions"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Proyecto"
+	}
+}

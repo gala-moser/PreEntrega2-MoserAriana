@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Barlow';
+    line-height: 1.5;
+}
+h1, h2, h3, h5{
+    font-family: 'Montserrat';
+    color:  #1b647f;
+    padding: 10px;
+    
+}
+#top{
+    text-align: center;
+}
+.logo{
+    width: 80px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+nav{
+    text-align: center;
+}
+.menu{
+    list-style-type: none;
+    background-color: #ffccbf;
+    padding: 0px;
+    width: 100%;
+    margin: 0 ;
+}
+.menu .item{
+    display: inline-block;
+    position: relative;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0px 60px 0px 60px;
+    color:  #1b647f;
+}
+
+.menu .submenu{
+    display: absolute;
+    display: none;
+}
+.menu .submenu .sub_i{
+    display: block;
+    font-size: 0.9rem;
+    text-align: left;
+    padding: 0;
+    position: initial;
+}
+.menu .item a{
+    color: #1b647f;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 20px;
+}
+.menu .item a:hover{
+    color: #fc485d;
+}
+.menu .item:hover .submenu{
+    display: block;
+    color: aliceblue;
+    list-style: none;
+    position: absolute;
+    background-color: #ffccbf;
+    font-size: 0.9rem;
+}
+.menu .sub_i:hover a{
+   background-color: #ffccbf;
+    color: #fc485d;
+}
+.section{
+    background-color:#aed4d5;
+    
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+    width: 100%;
+    height: 250px;
+    font-size: 2rem;
+    padding: 40px;
+    overflow: auto;
+}
+.one{
+    background-image: url(../assets/img/fondoabrazotc.png);
+} 
+.pa{
+    margin-left: 150px;
+    text-align: left;
+}
+
+.tituloAdoptados{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.fotosAdoptados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nombresAdoptados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    color:  #1b647f;
+}
+
+.enAdopcion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.nombresEnAdopcion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    color:  #1b647f;
+    padding: 10px;
+
+}
+.nEA{
+    
+    padding: 0px 180px 0px 180px;
+    margin: 0px 250px 0px 250px;        
+    display: inline-block;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.section4{
+    position: center;
+    
+}
+.videoRescate{
+    position: center;    
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleRescate{
+    text-align: center;
+}
+
+
+
+footer{
+    list-style-type: none;
+    background-color: #1b647f;
+    padding: 0px;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+
+
+}
+.footElement{
+    color: whitesmoke;
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+}
+.footer .footElement a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    text-align: center;
+}
+.footElement a:hover{
+    color: #fc485d;
+    text-decoration: none;
+    text-align: center;
+}
+.titleAdopciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.formAdopciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Barlow'
+
+}
+.formAdopciones .b{
+    padding: 5px;
+}
+.titleNosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.pNosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 70px;
+}
+.sectionPhNosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phNosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: center;
+
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px
+}
+
+.form  div{
+    padding: 10px;
+} 
+.form .b{
+    padding: 5px;
+    margin 10px;
+    display: inline;
+}
+.formSitters{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow'
+}
+.formSitters div{
+    padding: 10px;
+}
+.formSitters .b{
+    padding: 5px: 
+    
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.donacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.donacion h3{
+    margin: 10px 100px;
+    justify-content: space-around;
+
+}

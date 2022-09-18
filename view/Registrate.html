@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/faviconLogo/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@100;500;600&display=swap" rel="stylesheet">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header class="navBack">
+        <nav>
+            <ul class="menu">
+                <div id="top"> 
+                    <li><a href="index.html"></a><div id="top">
+                    <img class="logo" src="../assets/img/logoround.png" alt="logo proyecto adoptar">
+                    </li>
+                </div>
+        
+                    <li class="item"><a href="../index.html">INICIO</a></li>
+                    <li class="item"><a href=#>SERVICIOS</a>
+                        <ul class="submenu">
+                            <li class="sub_i"><a href="../view/Adopciones.html">Red de Adopciones</a></li>
+                            <li class="sub_i"><a href="../view/Sitters.html">Sitters</a></li>         
+                        </ul>
+                    </li>
+                    <li class="item"><a href=#>COLABORÁ</a>
+                        <ul class="submenu">
+                            <li class="sub_i"><a href="../view/Donaciones.html">Donaciones</a></li>
+                            <li class="sub_i"><a href="../view/Voluntariado.html">Voluntariado</a></li>         
+                        </ul>
+                    </li>
+                    <li class="item"><a href="../view/Nosotros.html">NOSOTROS</a></li>
+                    <li class="item"><a href="../view/Contacto.html">CONTACTO</a></li> 
+                    <li class="item"><a href="../view/Registrate.html">REGISTRATE</a></li> 
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section class="title register">
+            <div>
+                <h1>SUMATE A NUESTRA COMUNIDAD</h1>
+            </div>        
+            <div>
+                <h2>Registrate para acceder a nuestra Red de Adopciones y Tránsitos.</h2>
+            </div>
+        </section>
+        <hr>
+        <br>
+        <section>
+        <form action="" class="form register">
+            <fieldset>
+                <legend>Información Personal</legend>
+                <div>
+                    <label for="name">Nombre:</label><br>
+                    <input type="text" name="name" placeholder="María">
+                </div>
+                <div>
+                    <label for="surname">Apellido:</label><br>
+                    <input type="text" name="surname" placeholder="López">
+                </div>
+                <div>
+                    <label for="email">E-mail*:</label><br>
+                    <input type="text" name="email" placeholder="example@gmail.com">
+                </div>
+                <div>
+                    <label for="pass">Contraseña*:</label><br>
+                    <input type="password" name="pass">
+                </div>
+                <div>
+                    <label for="nac">Nacionalidad</label><br>
+                    <select name="nac" id="">
+                        <option value="arg">Argentina</option>
+                        <option value="uy">Uruguay</option>
+                        <option value="cl">Chile</option>
+                        <option value="bo">Bolivia</option>
+                        <option value="pa">Paraguay</option>
+                        <option value="br">Brasil</option>
+                        <option value="pr">Perú</option>
+                        <option value="ve">Venezuela</option>
+                        <option value="ecu">Ecuador</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="prov">Provincia:</label><br>
+                    <select name="prov" id="">
+                        <option value="Buenos Aires">Buenos Aires</option>
+                        <option value="Buenos Aires Capital">Buenos Aires Capital</option>
+                        <option value="Catamarca">Catamarca</option>
+                        <option value="Chaco">Chaco</option>
+                        <option value="Chubut">Chubut</option>
+                        <option value="Cordoba">Cordoba</option>
+                        <option value="Corrientes">Corrientes</option>
+                        <option value="Entre Rios">Entre Rios</option>
+                        <option value="Formosa">Formosa</option>
+                        <option value="Jujuy">Jujuy</option>
+                        <option value="La Pampa">La Pampa</option>
+                        <option value="La Rioja">La Rioja</option>
+                        <option value="Mendoza">Mendoza</option>
+                        <option value="Misiones">Misiones</option>
+                        <option value="Neuquen">Neuquen</option>
+                        <option value="Rio Negro">Rio Negro</option>
+                        <option value="Salta">Salta</option>
+                        <option value="San Juan">San Juan</option>
+                        <option value="San Luis">San Luis</option>
+                        <option value="Santa Cruz">Santa Cruz</option>
+                        <option value="Santa Fe">Santa Fe</option>
+                        <option value="Santiago del Estero">Santiago del Estero</option>
+                        <option value="Tierra del Fuego">Tierra del Fuego</option>
+                        <option value="Tucuman">Tucuman</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="loc">Localidad:</label> <br>
+                    <input type="text" name="loc">
+                </div>
+                <div>
+                    <label for="barrio">Barrio:</label><br>
+                    <input type="text" name="barrio">
+                </div>
+                <div>
+                    <label for="gen">Género:</label> <br>
+                    <input type="radio" name="gen" value="fem">Femenino
+                    <input type="radio" name="gen" value="masc">Masculino
+                    <input type="radio" name="gen" value="nb">No Binario
+                </div>
+                <div>
+                    <label for="act">Actividades en las que te interesa participar:</label><br>
+                    <input type="radio" name="act" value="adop">Red de adopciones <br>   
+                    <input type="radio" name="act" value="tran">Hogares de tránsito <br>
+                    <input type="radio" name="act" value="sit">Dog/Catsitter <br>
+                    <input type="radio" name="act" value="don">Donaciones <br>
+                    <input type="radio" name="act" value="vol">Voluntariado <br>
+                    <input type="radio" name="act" value="otro">Otros <br>
+                </div>
+                <br>
+                <div>
+                    <label for="terms">Acepto términos y condiciones</label>
+                    <input type="checkbox" name="terms">
+                </div>
+                <br>
+                <div>
+                    <input class="b" type="submit" value="Enviar Datos">
+                    <input class="b" type="Reset" value="Borrar Datos">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    </main>
+
+<footer>
+    <ul>
+        <div class="footElement">
+            <li class="footElement"><a class="footElement"href="#top">Ir al Inicio</a></li>
+        </div class="footElement">
+        <div class="footElement"> 
+            <p class="footElement">© 2022 Proyecto Adoptar, todos los derechos registrados.</p>
+        </div>
+    </ul>
+    </footer>
+</body>
