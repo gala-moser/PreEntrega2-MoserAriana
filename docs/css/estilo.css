@@ -13,12 +13,10 @@ body{
     min-height: 80vh;
 }
 
-<<<<<<< HEAD
 main{
     min-height: 75vh;
 }
-=======
->>>>>>> simple-animations
+
 
 h1, h2, h3,h4 {
     font-family: 'Montserrat';
@@ -326,11 +324,8 @@ footer{
     max-width: 600px;
     
 }
-<<<<<<< HEAD
-.navBack{
-    
-    
-=======
+
+
 
 /* here we will animate the party */
 
@@ -339,5 +334,5 @@ footer{
 }
 .btn:hover{
     transform: scale(1.1,1.1);  
->>>>>>> simple-animations
+
 }
