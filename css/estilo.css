@@ -13,6 +13,10 @@ body{
     
 }
 
+main{
+    min-height: 75vh;
+}
+
 h1, h2, h3,h4 {
     font-family: 'Montserrat';
     color:  #1b647f;
@@ -316,5 +320,9 @@ footer{
 }
 .video1{
     max-width: 600px;
+    
+}
+.navBack{
+    
     
 }
